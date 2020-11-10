@@ -3,10 +3,103 @@
 <head>
     <title>영어 교재 안내 페이지</title>
     <style>
-
+        table{
+            
+            font-family: "돋움" ;
+            font-size: 12px;
+            color : #444444;
+            height: 30px;
+            text-align: center;
+            padding:10px;
+            border-collapse: collapse;
+        }
+        th{
+            background-color: #f8f9f2;
+            color : #7a7e6f;
+            border: 1px solid #e6ecd4;
+            padding:10px;
+        }
+        td{
+            border: 1px solid #e6ecd4;
+            padding:10px;
+        }
+        .level{
+            width : 80px;
+        }
+        .courseA{
+            width : 150px;
+        }
+        .courseB{
+            width : 150px;
+        }
+        .term{
+            width : 120px;
+        }
+        .detail{
+            width : 100px;
+        }
+        .blueDetail{
+            line-height : 120%;
+            background-color:cornflowerblue;
+            color : white;
+            border-radius:30px;
+            border:0; 
+        }
     </style>
 </head>
 <body>
-    
+    <img src = "./green_icon.png" align="left">
+    <h3>영어 교재 안내</h3>
+    <table>
+        <tr>
+            <th class = "level">수강레벨</th>
+            <th class = "courseA">코스 A</th>
+            <th class = "courseB">코스 B</th>
+            <th class = "term">수강기간</th>
+            <th class = "detail">세부내용 보기</th>
+        </tr>
+        <tr>
+            <td>레벨1</td>
+            <td>Side by Side 1</td>
+            <td>American Headway 1</td>
+            <td>1개월</td>
+            <td >
+                <button class="blueDetail">
+                    세부내용보기
+                </button>
+            </td>
+        </tr>
+        <tr>
+            <td>레벨2</td>
+            <td>Side by Side 2</td>
+            <td>American Headway 2</td>
+            <td>1개월</td>
+            <td >
+                <button class="blueDetail">
+                    세부내용보기
+                </button>
+            </td>
+        </tr>
+        <tr>
+            <td>레벨3</td>
+            <td colspan="2">Exploring English 1</td>
+            <td>2개월</td>
+            <td >
+                <button class="blueDetail">
+                    세부내용보기
+                </button>
+            </td>
+        </tr>
+        <tr>
+            <td>레벨4</td>
+            <td colspan="2">Exploring English 2</td>
+            <td>2개월</td>
+            <td >
+                <button class="blueDetail">
+                    세부내용보기
+                </button>
+            </td>
+        </tr>
+    </table>
 </body>
 </html>
